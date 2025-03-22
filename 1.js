@@ -305,3 +305,9 @@ let numList = [1,2,3,4,5];
 let sum = numList.reduce((a,c) => console.log(a,c) , 0); //=> 15 , the second argument is the initial value of sum = 0;
 
 console.log(sum);
+
+
+let listFlat = [1,2,[3,4,[5,6]]];
+
+console.log(listFlat.flat(2))
+console.log(listFlat.flat())
