@@ -284,10 +284,18 @@ for(let letter of arr2.entries()){
     console.log(letter);
 }
 
-let list = [1,2,3,4,5,6,7,8,9,10];
+let list = [0,1,2,3,4,5,6,7,8,9,10];
 
 list.forEach(index => console.log(index));
 let newlist = list.map(num => num*2);
 let filter = list.filter(x => x<5)
 console.log(newlist)
 console.log(filter)
+
+console.log(list.findIndex(x => x > 6));
+
+let resultevery = list.every(x => x > 0); //false
+
+let resultSome = list.some(x => x > 10); //true
+
+console.log(resultSome)
