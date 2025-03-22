@@ -283,3 +283,11 @@ arr2.pop()
 for(let letter of arr2.entries()){
     console.log(letter);
 }
+
+let list = [1,2,3,4,5,6,7,8,9,10];
+
+list.forEach(index => console.log(index));
+let newlist = list.map(num => num*2);
+let filter = list.filter(x => x<5)
+console.log(newlist)
+console.log(filter)
