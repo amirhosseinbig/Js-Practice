@@ -100,8 +100,7 @@ console.log("x" in point)
 let arr = [40,30,20];
 
 console.log(20 in arr);
-console.log(20 in arr);
-console.log(20 in arr);
+
 
 let u = 5;
 let p = 2;
