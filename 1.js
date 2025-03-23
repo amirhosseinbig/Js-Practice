@@ -314,3 +314,7 @@ console.log(listFlat.flat())
 
 console.log(numList.slice(0,3));
 console.log(numList.slice(1,-3));
+
+// console.log(numList.splice(0,2))
+console.log(numList.splice(1,3,"a","b","c")) //=> insert
+console.log(numList) // => [3,4,5]
