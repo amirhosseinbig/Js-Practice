@@ -311,3 +311,6 @@ let listFlat = [1,2,[3,4,[5,6]]];
 
 console.log(listFlat.flat(2))
 console.log(listFlat.flat())
+
+console.log(numList.slice(0,3));
+console.log(numList.slice(1,-3));
