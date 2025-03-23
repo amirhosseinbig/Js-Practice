@@ -333,3 +333,20 @@ console.log(numList.indexOf(4));
 
 console.log(numList.includes(1));
 console.log(numList.includes(2,0));
+
+let numsort = [1111,4,23,5]
+console.log(numsort.sort());//=> [1111,23,4,5]
+
+console.log(numsort.sort((a,b) => a - b)); //=> [4,5,23,1111]
+console.log(numsort.sort((a,b) => b - a)); //=> [1111,23,5,4]
+
+let a = ["ant", "Bug", "cat", "Dog"];
+a.sort(); // a == ["Bug","Dog","ant","cat"]; case-sensitive
+sort
+a.sort(function(s,t) {
+let a = s.toLowerCase();
+let b = t.toLowerCase();
+if (a < b) return -1;
+if (a > b) return 1;
+return 0;
+}); // a == ["ant","Bug","cat","Dog"]; case-insensitive sort
