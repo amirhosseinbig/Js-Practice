@@ -322,7 +322,11 @@ console.log(numList.length) // => [3,4,5]
 // numList.fill(0);
 // numList.fill(8,2,-1);
 
-console.log(numList)
+// console.log(numList)
 
 numList.copyWithin(0,3,4);
 console.log(numList);
+
+console.log(numList.lastIndexOf(4));
+console.log(numList.indexOf(4));
+
