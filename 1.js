@@ -319,7 +319,10 @@ console.log(numList.slice(1,-3));
 // console.log(numList.splice(1,3,"a","b","c")) //=> insert
 console.log(numList.length) // => [3,4,5]
 
-numList.fill(0);
-numList.fill(8,2,-1);
+// numList.fill(0);
+// numList.fill(8,2,-1);
 
 console.log(numList)
+
+numList.copyWithin(0,3,4);
+console.log(numList);
