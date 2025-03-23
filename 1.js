@@ -330,3 +330,6 @@ console.log(numList);
 console.log(numList.lastIndexOf(4));
 console.log(numList.indexOf(4));
 
+
+console.log(numList.includes(1));
+console.log(numList.includes(2,0));
