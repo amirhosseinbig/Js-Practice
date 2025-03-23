@@ -342,7 +342,7 @@ console.log(numsort.sort((a,b) => b - a)); //=> [1111,23,5,4]
 
 let a = ["ant", "Bug", "cat", "Dog"];
 a.sort(); // a == ["Bug","Dog","ant","cat"]; case-sensitive
-sort
+
 a.sort(function(s,t) {
 let a = s.toLowerCase();
 let b = t.toLowerCase();
@@ -350,3 +350,5 @@ if (a < b) return -1;
 if (a > b) return 1;
 return 0;
 }); // a == ["ant","Bug","cat","Dog"]; case-insensitive sort
+
+console.log(numList.join("-"));//=> 1-2-3-4-5
